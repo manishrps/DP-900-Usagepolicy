@@ -8,5 +8,22 @@
       }
     ]
   },
-  
+  {
+    "ResourceType": "Microsoft.Sql/servers/databases",
+    "Parameter": [
+      {
+        "Name": "max-VCores",
+        "Value": "2"
+      }
+    ]
+  },
+  {
+    "ResourceType": "Microsoft.Sql/servers",
+    "Parameter": [
+      {
+        "Name": "max-cpu-cores",
+        "Value": "2"
+      }
+    ]
+  },
 ]
