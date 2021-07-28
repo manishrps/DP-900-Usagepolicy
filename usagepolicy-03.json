@@ -7,5 +7,14 @@
         "Value": "2"
       }
     ]
+  },
+  {
+    "ResourceType": "Microsoft.DocumentDb/databaseAccounts",
+    "Parameter": [
+      {
+        "Name": "max-RU",
+        "Value": "400"
+      }
+    ]
   }
 ]
